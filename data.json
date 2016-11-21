@@ -1,0 +1,36 @@
+{
+    "id": "https://github.com/EdinburghCityScope/dwp-income-support-claimants",
+    "title": "Income Support Claimants in Edinburgh",
+    "description": "Number of income support claimants in Edinburgh by age and gender (age split not available for gender).",
+    "landingPage": "https://github.com/EdinburghCityScope/dwp-income-support-claimants",
+    "issued": "2016-10-21",
+    "modified": "2016-11-18",
+    "language": [
+        "en"
+    ],
+    "publisher": {
+        "name": "Scottish Government",
+        "mbox": "statistics.enquiries@gov.scot"
+    },
+    "spatial": "http://www.geonames.org/maps/google_55.95_-3.193.html",
+    "keyword": [
+        "Economic Activity",
+        "Benefits and Tax Credits"
+    ],
+    "distribution": [
+        {
+            "title": "Edinburgh Data Zones 2001",
+            "description": "Data Zones 2001 boundaries in GeoJSON.",
+            "mediaType": "application/vnd.geo+json",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/dwp-income-support-claimants/master/data/data-zones-2001.json",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        },
+        {
+            "title": "Income Support Claimants data",
+            "description": "Income Support Claimants in Edinburgh Data Zones 2001 as created by the Department of Work and Pensions. Data taken from http://statistics.gov.scot/data/income-support-claimants",
+            "mediaType": "text/csv",
+            "downloadURL": "https://raw.githubusercontent.com/EdinburghCityScope/dwp-income-support-claimants/master/data/income-support-claimants.csv",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"
+        }
+    ]
+}
